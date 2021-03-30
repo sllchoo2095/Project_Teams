@@ -1,0 +1,5 @@
+P1;Foster Care;Helpless Orphans without an education;C1;1;2;3;4
+P2;Bucket Sales;Data Analysis on bucket sales;C2;4;2;3;1
+P3;Consumer Worry;Consumer analysis during COVID19;C3;3;4;1;2
+P4;JobKeeper Analytics;How best to predict job losses;C4;2;3;4;1
+P5;International Student Aid;Aiding stranded international students;C5;2;1;4;3

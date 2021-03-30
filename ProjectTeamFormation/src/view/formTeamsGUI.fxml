@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<BorderPane prefHeight="995.0" prefWidth="1173.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ProjectTeamFormationController">
+   <bottom>
+      <AnchorPane prefHeight="265.0" prefWidth="1237.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="CENTER" prefHeight="260.0" prefWidth="1060.0">
+               <children>
+                  <BarChart fx:id="prefGraph" prefHeight="260.0" prefWidth="400.0" title="Getting 1st &amp; 2nd Preferences">
+                    <xAxis>
+                      <CategoryAxis fx:id="prefXAxis" side="BOTTOM" />
+                    </xAxis>
+                    <yAxis>
+                      <NumberAxis fx:id="prefYAxis" side="LEFT" />
+                    </yAxis>
+                  </BarChart>
+                  <BarChart fx:id="averageCompetencyLevel" prefHeight="260.0" prefWidth="378.0" title="Average Competency Level">
+                    <xAxis>
+                      <CategoryAxis fx:id="avgXAxis" side="BOTTOM" />
+                    </xAxis>
+                    <yAxis>
+                      <NumberAxis fx:id="avgYAxis" side="LEFT" />
+                    </yAxis>
+                  </BarChart>
+                  <BarChart fx:id="skillsGapGraph" prefHeight="245.0" prefWidth="353.0" title="Skills Gap ">
+                    <xAxis>
+                      <CategoryAxis fx:id="skillsGapXAxis" side="BOTTOM" />
+                    </xAxis>
+                    <yAxis>
+                      <NumberAxis fx:id="skillsGapYAxis" prefHeight="196.0" prefWidth="25.0" side="LEFT" />
+                    </yAxis>
+                  </BarChart>
+               </children>
+            </HBox>
+         </children>
+      </AnchorPane>
+   </bottom>
+   <top>
+      <AnchorPane BorderPane.alignment="CENTER" />
+   </top>
+   <center>
+      <GridPane prefHeight="750.0" prefWidth="1235.0" BorderPane.alignment="CENTER">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="199.0" minWidth="10.0" prefWidth="186.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="448.0" minWidth="10.0" prefWidth="253.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="414.0" minWidth="10.0" prefWidth="192.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="467.0" minWidth="10.0" prefWidth="300.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="467.0" minWidth="10.0" prefWidth="277.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints maxHeight="225.0" minHeight="10.0" prefHeight="51.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="225.0" minHeight="10.0" prefHeight="128.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="323.0" minHeight="10.0" prefHeight="156.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="176.0" minHeight="0.0" prefHeight="139.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="121.0" minHeight="10.0" prefHeight="73.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="122.0" minHeight="10.0" prefHeight="64.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="122.0" minHeight="10.0" prefHeight="56.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="122.0" minHeight="10.0" prefHeight="63.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+            <Button mnemonicParsing="false" onAction="#addStudent" text="Add Student" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER" />
+            <Button mnemonicParsing="false" onAction="#swapProjects" text="Swap " GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER" />
+            <ListView fx:id="projectList1" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Label fx:id="projectID3" alignment="CENTER" text="Project 3" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+            <Label fx:id="projectID1" text="Project 1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+            <ListView fx:id="project1MembersList" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <ListView fx:id="project4MembersList" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <Label fx:id="projectID4" text="Project 4 " GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+            <Label text="Getting 1st/2nd Preference SD" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+            <Label text="Average Competency Level SD " GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER" />
+            <Label fx:id="prefSD" prefHeight="33.0" prefWidth="108.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+            <Label fx:id="avgCompetencySD" prefHeight="29.0" prefWidth="101.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER" />
+            <Label text="Skills Gap SD" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+            <Label fx:id="skillsGapSD" prefHeight="28.0" prefWidth="92.0" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+            <Label prefHeight="20.0" prefWidth="78.0" text="Enter Student " GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+            <TextField fx:id="studentIDTxt2" prefHeight="26.0" prefWidth="442.0" GridPane.columnIndex="3" />
+            <ListView fx:id="project3MembersList" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <ListView fx:id="project5MembersList" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <Label fx:id="projectID5" text="Project 5" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+            <ListView fx:id="project2MembersList" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Label prefHeight="17.0" prefWidth="149.0" text="Enter Student to Swap" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+            <TextField fx:id="studentTxt1" GridPane.columnIndex="1" />
+            <ListView fx:id="allProjectsList" onMouseClicked="#sumbitProject" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Label prefHeight="17.0" prefWidth="57.0" text="Projects" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+            <Label fx:id="projectID2" text="Project 2" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+            <Button fx:id="removeButton" mnemonicParsing="false" onAction="#removeStudent" text="Remove Student" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER" />
+            <Button fx:id="newDB" mnemonicParsing="false" onAction="#newDB" text="Send Data to New Database" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="7" GridPane.valignment="CENTER" />
+            <Button fx:id="updateDatabase" mnemonicParsing="false" onAction="#updateDB" text="Update Database" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="7" GridPane.valignment="CENTER" />
+            <Button fx:id="undoButton" mnemonicParsing="false" onAction="#undo" text="Undo" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="7" GridPane.valignment="CENTER" />
+            <Label fx:id="StudentListLabel" text="Available Students" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+            <ListView fx:id="studentsList" prefHeight="164.0" prefWidth="367.0" GridPane.columnIndex="4" GridPane.rowIndex="1" GridPane.rowSpan="3" />
+            <Button fx:id="exportButton" mnemonicParsing="false" onAction="#exportToSer" text=" Export To Serialised File" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER" />
+         </children>
+      </GridPane>
+   </center>
+</BorderPane>

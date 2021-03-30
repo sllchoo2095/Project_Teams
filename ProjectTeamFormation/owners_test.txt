@@ -1,0 +1,5 @@
+O1;C1;Stephanie;Choo;Data Scientist;sll844@gmail.com
+O2;C2;Danyal;Naim;Software Developer;d.m.@gmail.com
+O3;C3;Ken;Go;Manager;go.k@gmail.com
+O4;C4;Smitan;Pradhan;Data Warehousing;prashan@gmail.com
+O5;C5;Hon;Lee;Data Engineer;honmenglee@gmail.com

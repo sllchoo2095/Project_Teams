@@ -1,0 +1,100 @@
+S3 {P=1, A=1, W=4, N=1} C C C
+S4 {P=2, A=3, W=3, N=3} D C C
+S5 {P=3, A=4, W=2, N=2} A C C
+S6 {P=1, A=1, W=1, N=1} B C C
+S7 {P=4, A=4, W=4, N=4} C C C
+S8 {P=2, A=2, W=2, N=2} D C C
+S9 {P=3, A=3, W=3, N=3} A C C
+S20 {P=4, A=4, W=4, N=3} D C C
+S11 {P=1, A=4, W=4, N=2} C C C
+S10 {P=4, A=3, W=4, N=4} B C C
+S13 {P=1, A=1, W=1, N=1} A C C
+S12 {P=4, A=2, W=3, N=4} D C C
+S15 {P=3, A=4, W=2, N=2} C C C
+S14 {P=2, A=3, W=3, N=4} B C C
+S17 {P=2, A=4, W=4, N=4} A C C
+S16 {P=1, A=3, W=3, N=1} D C C
+S19 {P=1, A=3, W=4, N=2} C C C
+S18 {P=4, A=1, W=2, N=3} B C C
+S1 {P=4, A=2, W=1, N=3} A C C
+S2 {P=4, A=4, W=3, N=4} B C C
+S3 Daniel Ning  P 1 A 1 W 4 N 1  C NA NA  P1 4 P2 2 P3 3 P4 1 
+S4 Yi_Lin Zhu  P 2 A 3 W 3 N 3  D NA NA  P1 4 P2 2 P4 1 P5 3 
+S5 Jakson Sang  P 3 A 4 W 2 N 2  A NA NA  P1 2 P2 4 P4 1 P5 3 
+S6 Chris Gui  P 4 A 1 W 1 N 4  B NA NA  P1 2 P2 3 P3 1 P4 4 
+S7 Han Lee  P 4 A 4 W 4 N 4  C NA NA  P1 2 P2 4 P3 1 P5 3 
+S8 Sanjay Patel  P 2 A 2 W 2 N 2  D NA NA  P1 2 P2 3 P4 4 P5 1 
+S9 Harry Potter  P 3 A 3 W 3 N 3  A NA NA  P1 2 P2 4 P3 4 P4 3 
+S20 Edward Mumbai  P 4 A 4 W 4 N 3  D NA NA  P1 2 P3 3 P4 1 P5 4 
+S11 Peggy Schyler  P 1 A 4 W 4 N 2  C NA NA  P1 4 P2 2 P3 4 P4 3 
+S10 Alexander Hamilton  P 4 A 3 W 4 N 4  B NA NA  P1 2 P3 4 P4 3 P5 4 
+S13 Mei Ling  P 1 A 1 W 3 N 4  A NA NA  P1 2 P3 3 P4 4 P5 1 
+S12 Maria Reynolds  P 4 A 2 W 3 N 4  D NA NA  P2 2 P3 4 P4 3 P5 4 
+S15 Draco Malfoy  P 3 A 4 W 2 N 2  C S1 NA  P1 2 P3 1 P4 3 P5 4 
+S14 Qiang Li  P 2 A 3 W 3 N 4  B NA NA  P1 2 P3 4 P4 3 P5 1 
+S17 Hercules Mulligan  P 2 A 4 W 4 N 4  A NA NA  P1 1 P3 3 P4 2 P5 4 
+S16 Marquis Lafyette  P 1 A 3 W 3 N 1  D NA NA  P1 2 P3 3 P4 3 P5 4 
+S19 Jing Huang  P 1 A 3 W 4 N 2  C NA NA  P1 2 P3 1 P4 4 P5 3 
+S18 Edwina Pargiter  P 4 A 2 W 2 N 3  B NA NA  P1 1 P3 3 P4 4 P5 2 
+S1 Ron Weasley  P 4 A 2 W 1 N 3  A S15 S19  P1 4 P2 2 P3 3 P4 1 
+S2 Carly Go  P 4 A 4 W 3 N 4  B NA NA  P1 4 P2 2 P3 3 P5 1 
+S3 Daniel Ning  P 1 A 1 W 4 N 1  C NA NA  P1 4 P2 2 P3 3 P4 1 
+S4 Yi_Lin Zhu  P 2 A 3 W 3 N 3  D NA NA  P1 4 P2 2 P4 1 P5 3 
+S5 Jakson Sang  P 3 A 4 W 2 N 2  A NA NA  P1 2 P2 4 P4 1 P5 3 
+S6 Chris Gui  P 4 A 1 W 1 N 4  B NA NA  P1 2 P2 3 P3 1 P4 4 
+S7 Han Lee  P 4 A 4 W 4 N 4  C NA NA  P1 2 P2 4 P3 1 P5 3 
+S8 Sanjay Patel  P 2 A 2 W 2 N 2  D NA NA  P1 2 P2 3 P4 4 P5 1 
+S9 Harry Potter  P 3 A 3 W 3 N 3  A NA NA  P1 2 P2 4 P3 4 P4 3 
+S20 Edward Mumbai  P 4 A 4 W 4 N 3  D NA NA  P1 2 P3 3 P4 1 P5 4 
+S11 Peggy Schyler  P 1 A 4 W 4 N 2  C NA NA  P1 4 P2 2 P3 4 P4 3 
+S10 Alexander Hamilton  P 4 A 3 W 4 N 4  B NA NA  P1 2 P3 4 P4 3 P5 4 
+S13 Mei Ling  P 1 A 1 W 3 N 4  A NA NA  P1 2 P3 3 P4 4 P5 1 
+S12 Maria Reynolds  P 4 A 2 W 3 N 4  D NA NA  P2 2 P3 4 P4 3 P5 4 
+S15 Draco Malfoy  P 3 A 4 W 2 N 2  C S1 NA  P1 2 P3 1 P4 3 P5 4 
+S14 Qiang Li  P 2 A 3 W 3 N 4  B NA NA  P1 2 P3 4 P4 3 P5 1 
+S17 Hercules Mulligan  P 2 A 4 W 4 N 4  A NA NA  P1 1 P3 3 P4 2 P5 4 
+S16 Marquis Lafyette  P 1 A 3 W 3 N 1  D NA NA  P1 2 P3 3 P4 3 P5 4 
+S19 Jing Huang  P 1 A 3 W 4 N 2  C NA NA  P1 2 P3 1 P4 4 P5 3 
+S18 Edwina Pargiter  P 4 A 2 W 2 N 3  B NA NA  P1 1 P3 3 P4 4 P5 2 
+S1 Ron Weasley  P 4 A 2 W 1 N 3  A S15 S19  P1 4 P2 2 P3 3 P4 1 
+S2 Carly Go  P 4 A 4 W 3 N 4  B NA NA  P1 4 P2 2 P3 3 P5 1 
+S3 Daniel Ning  P 1 A 1 W 4 N 1  C NA NA  P1 4 P2 2 P3 3 P4 1 
+S4 Yi_Lin Zhu  P 2 A 3 W 3 N 3  D NA NA  P1 4 P2 2 P4 1 P5 3 
+S5 Jakson Sang  P 3 A 4 W 2 N 2  A NA NA  P1 2 P2 4 P4 1 P5 3 
+S6 Chris Gui  P 4 A 1 W 1 N 4  B NA NA  P1 2 P2 3 P3 1 P4 4 
+S7 Han Lee  P 4 A 4 W 4 N 4  C NA NA  P1 2 P2 4 P3 1 P5 3 
+S8 Sanjay Patel  P 2 A 2 W 2 N 2  D NA NA  P1 2 P2 3 P4 4 P5 1 
+S9 Harry Potter  P 3 A 3 W 3 N 3  A NA NA  P1 2 P2 4 P3 4 P4 3 
+S20 Edward Mumbai  P 4 A 4 W 4 N 3  D NA NA  P1 2 P3 3 P4 1 P5 4 
+S11 Peggy Schyler  P 1 A 4 W 4 N 2  C NA NA  P1 4 P2 2 P3 4 P4 3 
+S10 Alexander Hamilton  P 4 A 3 W 4 N 4  B NA NA  P1 2 P3 4 P4 3 P5 4 
+S13 Mei Ling  P 1 A 1 W 3 N 4  A NA NA  P1 2 P3 3 P4 4 P5 1 
+S12 Maria Reynolds  P 4 A 2 W 3 N 4  D NA NA  P2 2 P3 4 P4 3 P5 4 
+S15 Draco Malfoy  P 3 A 4 W 2 N 2  C S1 NA  P1 2 P3 1 P4 3 P5 4 
+S14 Qiang Li  P 2 A 3 W 3 N 4  B NA NA  P1 2 P3 4 P4 3 P5 1 
+S17 Hercules Mulligan  P 2 A 4 W 4 N 4  A NA NA  P1 1 P3 3 P4 2 P5 4 
+S16 Marquis Lafyette  P 1 A 3 W 3 N 1  D NA NA  P1 2 P3 3 P4 3 P5 4 
+S19 Jing Huang  P 1 A 3 W 4 N 2  C NA NA  P1 2 P3 1 P4 4 P5 3 
+S18 Edwina Pargiter  P 4 A 2 W 2 N 3  B NA NA  P1 1 P3 3 P4 4 P5 2 
+S1 Ron Weasley  P 4 A 2 W 1 N 3  A S15 S19  P1 4 P2 2 P3 3 P4 1 
+S2 Carly Go  P 4 A 4 W 3 N 4  B NA NA  P1 4 P2 2 P3 3 P5 1 
+S3 Daniel Ning  P 1 A 1 W 4 N 1  C NA NA  P1 4 P2 2 P3 3 P4 1 
+S4 Yi_Lin Zhu  P 2 A 3 W 3 N 3  D NA NA  P1 4 P2 2 P4 1 P5 3 
+S5 Jakson Sang  P 3 A 4 W 2 N 2  A NA NA  P1 2 P2 4 P4 1 P5 3 
+S6 Chris Gui  P 4 A 1 W 1 N 4  B NA NA  P1 2 P2 3 P3 1 P4 4 
+S7 Han Lee  P 4 A 4 W 4 N 4  C NA NA  P1 2 P2 4 P3 1 P5 3 
+S8 Sanjay Patel  P 2 A 2 W 2 N 2  D NA NA  P1 2 P2 3 P4 4 P5 1 
+S9 Harry Potter  P 3 A 3 W 3 N 3  A NA NA  P1 2 P2 4 P3 4 P4 3 
+S20 Edward Mumbai  P 4 A 4 W 4 N 3  D NA NA  P1 2 P3 3 P4 1 P5 4 
+S11 Peggy Schyler  P 1 A 4 W 4 N 2  C NA NA  P1 4 P2 2 P3 4 P4 3 
+S10 Alexander Hamilton  P 4 A 3 W 4 N 4  B NA NA  P1 2 P3 4 P4 3 P5 4 
+S13 Mei Ling  P 1 A 1 W 3 N 4  A NA NA  P1 2 P3 3 P4 4 P5 1 
+S12 Maria Reynolds  P 4 A 2 W 3 N 4  D NA NA  P2 2 P3 4 P4 3 P5 4 
+S15 Draco Malfoy  P 3 A 4 W 2 N 2  C S1 NA  P1 2 P3 1 P4 3 P5 4 
+S14 Qiang Li  P 2 A 3 W 3 N 4  B NA NA  P1 2 P3 4 P4 3 P5 1 
+S17 Hercules Mulligan  P 2 A 4 W 4 N 4  A NA NA  P1 1 P3 3 P4 2 P5 4 
+S16 Marquis Lafyette  P 1 A 3 W 3 N 1  D NA NA  P1 2 P3 3 P4 3 P5 4 
+S19 Jing Huang  P 1 A 3 W 4 N 2  C NA NA  P1 2 P3 1 P4 4 P5 3 
+S18 Edwina Pargiter  P 4 A 2 W 2 N 3  B NA NA  P1 1 P3 3 P4 4 P5 2 
+S1 Ron Weasley  P 4 A 2 W 1 N 3  A S15 S19  P1 4 P2 2 P3 3 P4 1 
+S2 Carly Go  P 4 A 4 W 3 N 4  B NA NA  P1 4 P2 2 P3 3 P5 1 

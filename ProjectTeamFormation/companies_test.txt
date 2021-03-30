@@ -1,0 +1,5 @@
+C1;APPLE;111111;www.Mink.com;87 Killers St Melbourne 3000
+C2;Kid;333333;www.kid.com.au;18 Jefferson Rd, Boston 9999
+C3;King;333344;www.king.com.au;18 Medison Rd, Virginia 2321
+C4;Laff;666666;www.laf.com;177 Laffayette Rd Paris 2293
+C5;Mull;1112344;www.Mull.com;222 Hercules Lane, Yortwon 3453
